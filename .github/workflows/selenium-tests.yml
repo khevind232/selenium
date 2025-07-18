@@ -103,4 +103,4 @@ jobs:
           done
 
       - name: Run Selenium tests
-        run: node tests/SeleniumTest.mjs github
+        run: npm run selenium-test

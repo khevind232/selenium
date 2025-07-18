@@ -9,6 +9,8 @@
     "selenium-webdriver": "^4.27.0"
   },
   "scripts": {
-    "test": "mocha tests/*.js"
+    "start": "node app.js",
+    "test": "mocha tests/*.js",
+    "selenium-test": "node tests/SeleniumTest.mjs github"
   }
 }
